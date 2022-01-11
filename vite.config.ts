@@ -3,6 +3,9 @@ import ssr from 'vite-plugin-ssr/plugin'
 import { UserConfig } from 'vite'
 
 const config: UserConfig = {
+  build: {
+    cssCodeSplit: false,
+  },
   plugins: [vue(), ssr()],
 }
 
