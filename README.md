@@ -2,7 +2,7 @@
 
 ## Bug
 
-When setting `build.cssCodeSplit: false` then the CSS is missing in the `dist/manifest.json` (`dist/manifest.json` if using vite-plugin-ssr).
+When setting `build.cssCodeSplit: false` then the CSS is missing in the `dist/manifest.json` (`dist/client/manifest.json` if using vite-plugin-ssr).
 
 ## Reproduction Steps
 
